@@ -1,12 +1,13 @@
-type FooterProps = {
-  title: string;
-  description: string;
-};
+import React, { useState } from 'react';
+const Footer = () => {
+ 
 
-export const Footer = ({ title, description }: FooterProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden sm:max-w-xs lg:max-w-sm xl:max-w-md">
-      <footer className="p-4"> Hello Footer </footer>
+    <div>
+      <h1>Copyright info@2024</h1>
+      
     </div>
   );
 };
+
+export default Footer;
