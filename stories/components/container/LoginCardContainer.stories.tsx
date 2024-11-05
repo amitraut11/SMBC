@@ -1,3 +1,6 @@
+// stories/LoginCardContainer.stories.tsx
+
+
 import React, { ReactNode } from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 
@@ -21,7 +24,7 @@ const LoginCardContainer: React.FC<LoginCardContainerProps> = ({
 );
 
 const meta: Meta<typeof LoginCardContainer> = {
-  title: 'Components/LoginCardContainer',
+  title: 'Components/container/LoginCardContainer',
   component: LoginCardContainer,
   argTypes: {
     backgroundColor: { control: 'color', defaultValue: '#333' },

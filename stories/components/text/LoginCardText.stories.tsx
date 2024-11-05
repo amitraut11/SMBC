@@ -4,7 +4,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import LoginCardText from './LoginCardText'; // Ensure this path is correct
 
 const meta: Meta<typeof LoginCardText> = {
-  title: 'Components/LoginCardText',
+  title: 'Components/text/LoginCardText',
   component: LoginCardText,
   argTypes: {
     text: { control: 'text', defaultValue: 'Please log in.' },

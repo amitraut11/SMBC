@@ -18,6 +18,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.0",
+    "@storybook/addon-docs": "^8.4.1",
     "react-router-dom": "^6.27.0"
   }
 }
