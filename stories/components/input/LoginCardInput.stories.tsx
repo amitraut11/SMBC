@@ -23,7 +23,7 @@ const LoginCardInput: React.FC<{ placeholder: string; backgroundColor: string; b
 );
 
 const meta: Meta<typeof LoginCardInput> = {
-  title: 'Components/input/LoginCardInput',
+  title: 'Components/Input/LoginCardInput',
   component: LoginCardInput,
   argTypes: {
     placeholder: { control: 'text', defaultValue: 'Enter username' },

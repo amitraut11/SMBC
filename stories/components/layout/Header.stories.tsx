@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 
 const meta: Meta<typeof Header> = {
-  title: 'Components/layout/Header',
+  title: 'Components/Layout/Header',
   component: Header,
   decorators: [
     (Story) => (

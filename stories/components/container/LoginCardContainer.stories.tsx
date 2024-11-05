@@ -24,7 +24,7 @@ const LoginCardContainer: React.FC<LoginCardContainerProps> = ({
 );
 
 const meta: Meta<typeof LoginCardContainer> = {
-  title: 'Components/container/LoginCardContainer',
+  title: 'Components/Container/LoginCardContainer',
   component: LoginCardContainer,
   argTypes: {
     backgroundColor: { control: 'color', defaultValue: '#333' },

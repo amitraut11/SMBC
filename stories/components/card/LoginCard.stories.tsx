@@ -4,7 +4,7 @@ import LoginCard from "./LoginCard";
 import "./LoginCard.css"; // Ensure this import is present
 
 const meta: Meta<typeof LoginCard> = {
-  title: "Components/card/LoginCard",
+  title: "Components/Card/LoginCard",
   component: LoginCard,
 };
 
