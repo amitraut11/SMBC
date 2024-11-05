@@ -1,10 +1,10 @@
 // stories/LoginCard.stories.tsx
-import type { Meta, StoryObj } from '@storybook/react';
-import LoginCard from './LoginCard';
-import './LoginCard.css'; // Ensure this import is present
+import type { Meta, StoryObj } from "@storybook/react";
+import LoginCard from "./LoginCard";
+import "./LoginCard.css"; // Ensure this import is present
 
 const meta: Meta<typeof LoginCard> = {
-  title: 'Components/LoginCard',
+  title: "Components/card/LoginCard",
   component: LoginCard,
 };
 
@@ -16,7 +16,7 @@ export const Default: Story = {
   args: {
     handleLogin: (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      console.log('Login submitted');
+      console.log("Login submitted");
     },
   },
 };
