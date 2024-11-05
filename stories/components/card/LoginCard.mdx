@@ -1,0 +1,20 @@
+import { Meta } from '@storybook/addon-docs';
+import LoginCard from './LoginCard';
+
+<Meta title="Components/Card/LoginCard" />
+
+# Login Card
+
+The `LoginCard` component provides a simple login form with a submit button. This component is useful for login screens in various applications.
+
+## Usage
+
+Here’s how you can use the `LoginCard` component:
+
+```tsx
+<LoginCard
+  handleLogin={(event) => {
+    event.preventDefault();
+    console.log("Login submitted");
+  }}
+/>

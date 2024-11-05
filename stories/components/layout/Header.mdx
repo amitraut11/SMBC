@@ -1,0 +1,19 @@
+import { Meta, Story } from '@storybook/addon-docs';
+import { Default as HeaderDefault, CustomHeader } from './Header.stories';
+
+<Meta title="Components/Layout/Header" />
+
+# Header
+
+The `Header` component displays the application's title and a dropdown menu for navigation. It allows customization of the background and text colors.
+
+## Usage
+
+You can use the `Header` like this:
+
+```tsx
+<Header 
+  onTabClick={(tab: string) => console.log(`Tab clicked: ${tab}`)} 
+  backgroundColor="#3b82f6" 
+  textColor="white" 
+/>
